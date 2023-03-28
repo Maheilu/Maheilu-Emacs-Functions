@@ -8,7 +8,7 @@
     (lsp-format-buffer))
    ((eq major-mode #'rustic-mode)
     (require 'rustic-rustfmt)
-    (rustic-cargo-fmt))
+    (rustic-format-buffer))
    ((eq major-mode #'elixir-mode)
     (require 'elixir-format)
     (elixir-format))
